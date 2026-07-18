@@ -1,9 +1,11 @@
+package JavaGiris;
+
 public class HelloWorld {
 
     public static void main(String[] args) {
 
         // Konsola Metin Yazdırma
-        System.out.println("HelloWorld");
+        System.out.println("JavaGiris.HelloWorld");
 
         // Variable oluşturma
         int stuNo = 1013;
