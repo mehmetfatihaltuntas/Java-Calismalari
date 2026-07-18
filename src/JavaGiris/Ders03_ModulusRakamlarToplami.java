@@ -61,13 +61,5 @@ public class Ders03_ModulusRakamlarToplami {
 
 
 
-
-
-
-
-
-
-
-
     }
 }
