@@ -2,7 +2,7 @@ package JavaGiris;
 
 import java.util.Scanner;
 
-public class Ders02_ScanenrPratik {
+public class Ders02_ScannerPratik {
     public static void main(String[] args) {
 
         /*
@@ -41,7 +41,7 @@ Soru 7 (Interview)- Kullanicidan iki sayi alip ikisinin degerlerini degistirin(s
         // SORU 5: Girilen İsmin baharfini alma (charAt(0))
         // ==========================================
         scanner.nextLine();
-        System.out.println("----Soru5 İsmin baş harfi----");
+        System.out.println("\n----Soru5 İsmin baş harfi----");
         System.out.println("Lütfen İsminizi Giriniz");
 
         isim = scanner.nextLine();
@@ -74,6 +74,27 @@ Soru 7 (Interview)- Kullanicidan iki sayi alip ikisinin degerlerini degistirin(s
       //  System.out.println("sayi2 : "+sayi2+",  temp : "+temp);
 
         System.out.println("\nDeğişimden SONRA -> sayi1 : " + sayi1 + " , sayi2 : " + sayi2);
+
+
+        // ==========================================
+        // SORU 8: Temp Kullanmadan Degiskenlerin Degerlerini Degistirme (Swap)
+        // ==========================================
+
+
+        System.out.println("\n--- Temp Kullanmadan Deger Degistirme (Swap) ---");
+        System.out.print("Lutfen 1. sayiyi (a) giriniz: ");
+        sayi1 = scanner.nextInt();
+        System.out.print("Lutfen 2. sayiyi (b) giriniz: ");
+        sayi2 = scanner.nextInt();
+        System.out.println("\nIslemden ONCE -> a: " + sayi1 + ", b: " + sayi2);
+        sayi1 = sayi1+sayi2;
+        sayi2 = sayi1-sayi2;
+        sayi1 = sayi1-sayi2;
+
+        System.out.println("\nIslemden SONRA -> a: " + sayi1 + ", b: " + sayi2);
+
+
+
 
 
     }
