@@ -6,6 +6,7 @@ public class Ders02_ScannerPratik {
     public static void main(String[] args) {
 
         /*
+
 Soru 3- Kullanicidan ismini, soyismini ve yasini alip, asagidaki formmatta yazdirin.
 Isminiz : John
 Soyisminiz : Doe
@@ -16,6 +17,10 @@ Soru 5- Kullanicidan ismini, soyismini ve yasini alip asagidaki formatta yazdiri
 girilen bilgiler : J Doe, 44
 
 Soru 7 (Interview)- Kullanicidan iki sayi alip ikisinin degerlerini degistirin(swap).
+
+Soru 8 (Interview)- Kullanicidan iki sayi alip, ucuncu bir degisken kullanmadan ikisinin
+degerlerini degistirin(swap).
+
          */
 
         // Scanner objemizi olusturuyoruz ki disaridan veri alabilelim.
