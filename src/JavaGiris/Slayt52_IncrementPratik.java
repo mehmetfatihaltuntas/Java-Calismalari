@@ -18,7 +18,7 @@ public class Slayt52_IncrementPratik {
         // 4. Adim: Karma Karma Islem[cite: 1]
         // b++ degeri once isleme girer (11 olarak), islem bittikten sonra b hafizada 12 olur.
         // a'nin guncel degeri olan 12 ile toplanir: 11 + 12 = 23.
-        int c = b++ + a;[cite: 1]
+        int c = b++ + a;
         System.out.println("c'nin degeri : " + c); // Konsol: 23
 
         // 5. Adim: Son Hafiza Durumu Ile Toplam
