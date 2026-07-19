@@ -1,4 +1,4 @@
-package javaGiris;
+package JavaGiris;
 
 import java.util.Scanner;
 
