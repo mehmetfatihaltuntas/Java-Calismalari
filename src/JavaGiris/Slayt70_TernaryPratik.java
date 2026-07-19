@@ -27,5 +27,18 @@ public class Slayt70_TernaryPratik {
         System.out.print("kenar 3 : ");
         int kenar3 = scanner.nextInt();
         System.out.println((kenar1==kenar2&&kenar1==kenar3)?"Bu Ucgen Eskenardir":"EskenarUcgen degildir");
+
+        // ==========================================
+        // SORU 3: Küçük harfi Buyuk Harfe Cevirme
+        // ==========================================
+        System.out.println("\n--- Soru 3: Buyuk Harf Kontrolu ---");
+        System.out.println("Lutfen bir harf girin:");
+        char harf = scanner.next().charAt(0);
+        String harfdegisimi = (harf>='a'&&harf<='z') ?
+                "Harfin büyütülmüş hali : "+Character.toUpperCase(harf) :
+                "Harfin kendisi : "+harf;
+        System.out.println(harfdegisimi);
+
+
     }
 }
