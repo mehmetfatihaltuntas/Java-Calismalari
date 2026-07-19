@@ -39,6 +39,22 @@ public class Slayt70_TernaryPratik {
                 "Harfin kendisi : "+harf;
         System.out.println(harfdegisimi);
 
+        // ==========================================
+        // SORU 4: Ternary ile Gecme/Kalma Kontrolu
+        // ==========================================
+        System.out.println("--- Soru 4: Ternary ile Gecme/Kalma Kontrolu ---");
+        System.out.print("Lutfen notunuzu giriniz (Orn: 75,5): ");
+
+        // Not verisi ondalikli olabilecegi icin double tanimladik
+        double not = scanner.nextDouble();
+
+        // Ternary Operatoru ile tek satirlik karar mekanizmasi
+        // Sart saglanirsa ? sonrasi, saglanmazsa : sonrasi String degiskene atanir.
+        String sonucMesaji = (not >= 50) ? "Sinifi Gectin" : "Maalesef Kaldin";
+
+        // Ekrana sonucu basiyoruz
+        System.out.println("Durumunuz: " + sonucMesaji);
+
 
     }
 }
