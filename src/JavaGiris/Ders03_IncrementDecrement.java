@@ -36,5 +36,18 @@ public class Ders03_IncrementDecrement {
         System.out.println("Artirdiktan sonra b'nin degeri : " + b);    // b artik 11
 
 
+        // ==========================================
+        // 3. PRE VE POST INCREMENT FARKI (Mülakat Sorusu)
+        // ==========================================
+
+        a = 10;
+        System.out.println("a'nin degeri : " + ++a);    //a = 11
+        b = a++;
+        System.out.println("b'nin degeri : " + b);      //b = 11
+        int c = b++ + a;                                // 11 + 12
+        System.out.println("c'nin degeri : " + c);      //c = 23
+        System.out.println("Son toplam : " + (a + b + c));  // 12 + 12 + 23 = 47
+
+
     }
 }
